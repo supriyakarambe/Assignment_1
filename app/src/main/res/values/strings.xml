@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="abc_capital_on">ABC</string>
+    <string name="register">Register</string>
+    <string name="change_password">Change Password</string>
+    <string name="email">Email:</string>
+    <string name="username">Username:</string>
+    <string name="this_account_is_for">This account is for</string>
+    <string name="login">Login</string>
+    <string name="your_password_is">Your Password is :</string>
+    <string name="update">Update</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

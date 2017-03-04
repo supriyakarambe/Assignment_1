@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_user_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.montclair.mobilecomputing.m_alrajab.assignment_1.UpdateUserInfo">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/Reg_SName"
+            android:hint="Enter your name"/>
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:id="@+id/Reg_SMajor"
+            android:hint="Enter your major"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/Reg_Email"
+            android:hint="Enter your MSU email"
+            android:inputType="textEmailAddress"
+            />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:id="@+id/Reg_pass1"
+            android:inputType="textPassword"
+            android:hint="Enter your password"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:inputType="textPassword"
+            android:id="@+id/Reg_pass2"
+            android:hint="Confirm  password"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_update"
+            android:text="@string/update"
+            android:backgroundTint="#0FFF"
+            android:onClick="updateUserInfo"/>
+    </LinearLayout>
+</ScrollView>
